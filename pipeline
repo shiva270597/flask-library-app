@@ -21,6 +21,7 @@ pipeline {
                 dir('flask-library-app') {
                     // Run the script
                     sh './data.sh'
+
                 }
             }
         }
